@@ -2201,7 +2201,7 @@
     // ----- Go to beginning of File
     @rewind($this->zip_fd);
 
-    // ----- Creates a temporay file
+    // ----- Creates a temporary file
     $v_zip_temp_name = PCLZIP_TEMPORARY_DIR.uniqid('pclzip-').'.tmp';
 
     // ----- Open the temporary file in write mode
